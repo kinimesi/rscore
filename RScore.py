@@ -41,6 +41,7 @@ class RScore(object):
 		return word_tfidf
 
 	def rscore(self, file_name):
+		self.score = 0
 		word_tfidf = self.tf_idf(file_name)
 		for word in word_tfidf:
 			try:
