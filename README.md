@@ -27,5 +27,5 @@ scikit-learn
 ###Future ideas:
 
 - Implement bigram, trigram or four-gram.
-- Build a website to make it easier to use for nontechnical people.
+- Build a website to make it easier for the use of nontechnical people.
 - Increse training data set size for better performance
