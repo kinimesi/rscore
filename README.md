@@ -1,7 +1,7 @@
 rscore
 ======
 
-rscore is a new approach to readability score. It calculates readability score based on English word frequency. Google unigram data is used for word frequency. 
+rscore is a new approach to readability score and readability level classification. It calculates readability score based on English word frequency and predictes readability level by using English word frequency and tf-idf scores as features. Google unigram data is used for word frequency. 
 
 ###Required libraries:
 ```
