@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-__author__ = 'tinko minko'
+__author__ = 'ilkin safarli'
 
 from sklearn.pipeline import FeatureUnion
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from FrequencyTransformer import *
-from RScore import *
 from sklearn.datasets import load_files
+from RScore import RScore
 
 
 class Classifier(RScore):
@@ -43,7 +43,7 @@ class Classifier(RScore):
 		if file_type == "text":
 			text = [self.clear_text(file_name)]
 		else:
-			text = load_files(container_path=file_name, description=None, categories=self.categories,shuffle = True)
+			text = load_files(container_path=file_name, description=None, categories=self.categories,encoding="utf8").data
 		new_counts = self.count_vect.transform(text)
 		array = new_counts.toarray()
 		res = FeatureUnion([("frequency", self.freq_transformer), ("tfidf", self.tf_transformer)]).transform(array)

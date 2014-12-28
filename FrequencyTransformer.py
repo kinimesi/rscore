@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-__author__ = 'tinko minko'
+__author__ = 'ilkin safarli'
 
 import numpy as np
 import pickle

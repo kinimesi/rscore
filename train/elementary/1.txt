@@ -1,0 +1,7 @@
+"""My name is Ben and I come from Australia. I am 24 years old and I live in a small town near Sydney called Branton.
+
+I don't have a job now, but normally I clean shop windows. I am not married but I live with my very beautiful girlfriend, Maria, in a nice house in Branton. We don't have any children...maybe next year.
+
+My girlfriend is an actress, but she isn't very famous. She acts in a small theatre in our town. At the weekend, we like to go swimming in a big lake near our house.
+
+I normally get up at eight o'clock, but on Thursday I get up at six o'clock because that is the day when I go running in the park."""
