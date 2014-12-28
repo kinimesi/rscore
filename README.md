@@ -16,14 +16,19 @@ scikit-learn
 >>> demo = RScore()  # create object
 >>> demo.rscore('text.txt')  # calculate score of text file
 ```
-###How ro use Classifier:
+###How to use Classifier:
 ```Python
 >>> import Classifier  # import Classifier
 >>> demo = Classifier()  # create object
 >>> demo.train()  # train the classifier  (might take some time depending on the size of training dataset)
 >>> demo.predict('text.txt') # predict the level
 ```
-
+Installing:
+-----
+```
+sudo python setup.py build
+sudo python seup.py install
+```
 ###Future ideas:
 
 - Implement bigram, trigram or four-gram.
