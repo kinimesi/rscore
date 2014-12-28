@@ -34,7 +34,7 @@ class Classifier(RScore):
 		self.classifier = MultinomialNB()
 		self.classifier.fit(self.combined_features, self.train_data.target)
 
-	def predict(self, file_name, file_type = "text"):
+	def predict(self, file_name, file_type="text"):
 		"""
 		Predicts level of given text file or files.
 		:param file_name: name of directory or text file.
